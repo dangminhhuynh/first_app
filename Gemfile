@@ -5,6 +5,11 @@ ruby '2.1.2'
 gem 'rails','4.1.5'
 
 group :development do
+	gem 'sqlite3','1.3.8'
+	#gem 'pg'
+end
+
+group :production do
 	#gem 'sqlite3','1.3.8'
 	gem 'pg'
 end
